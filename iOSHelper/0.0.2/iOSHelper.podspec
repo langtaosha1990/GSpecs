@@ -33,19 +33,19 @@ TODO: Add long description of the pod here.
 #  s.source_files = 'iOSHelper/Classes/**/*'
   
   s.subspec 'GWebViewManager' do |ss|
-    ss.source_files = 'iOSHelper/GUnitySupport/GWebViewManager/*.{h, m}'
+    ss.source_files = 'iOSHelper/GUnitySupport/GWebViewManager/*{h,m}'
   end
   
   s.subspec 'GLiveVideoManager' do |ss|
-    ss.source_files = 'iOSHelper/GUnitySupport/GLiveVideoManager/*.{h, m}'
+    ss.source_files = 'iOSHelper/GUnitySupport/GLiveVideoManager/*.{h,m}'
   end
   
   s.subspec 'GSecurityManager' do |ss|
-    ss.source_files = 'iOSHelper/GUnitySupport/GSecurityManager/*.{h, m}'
+    ss.source_files = 'iOSHelper/GUnitySupport/GSecurityManager/*.{h,m}'
   end
   
   s.subspec 'GCoreMLManager' do |ss|
-    ss.source_files = 'iOSHelper/GUnitySupport/GCoreMLManager/*.{h, m}'
+    ss.source_files = 'iOSHelper/GUnitySupport/GCoreMLManager/*.{h,m}'
   end
   
   # s.resource_bundles = {
