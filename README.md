@@ -1,1 +1,3 @@
 # GSpecs
+
+spec仓库
