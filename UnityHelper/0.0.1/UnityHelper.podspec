@@ -31,11 +31,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'UnityHelper/Classes/**/*'
+  s.source_files = 'UnityHelper/Classes/**/*.swift'
   
   s.subspec 'GWKWebViewManager' do |ss|
     ss.source_files = 'UnityHelper/Classes/GWKWebViewManager/*.swift'
-    ss.public_header_files = ['UnityHelper/Classes/GWKWebViewManager/*.h']
   end
   
 #  s.subspec 'GCoreMLManager' do |ss|
@@ -46,7 +45,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'UnityHelper' => ['UnityHelper/Assets/*.png']
   # }
-  s.swift_versions = '5.0'
+  s.swift_versions = ['5']
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'WebKit', 'UIKit'
    s.static_framework = true
